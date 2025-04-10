@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload & Print - PrintVendo</title>
+    <!-- Core Libraries -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-bootstrap-4/bootstrap-4.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <!-- PDF Processing -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js"></script>
+    <script>
+        window.pdfjsLib = window['pdfjs-dist/build/pdf'];
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.worker.min.js';
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script>
+        window.jspdf = window.jspdf || {};
+    </script>
+    
+    <!-- Document Processing -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
+    
+    <!-- Custom styles -->
+    <style>
+        /* Spinner animation */
+        .spinner {
+            display: inline-block;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        /* Processing indicator */
+        .processing-file {
+            color: #007bff;
+            font-weight: bold;
+        }
+    </style>
+    
+    <!-- Application Scripts -->
+    <script src="../js/machineConfig.js"></script>
+    <script src="../js/document-scanner.js"></script>
+    <script src="../js/upload.js"></script>
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">PrintVendo</a>
+            <span class="navbar-text" id="machineId"></span>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card shadow">
+                    <div class="card-header bg-primary text-white">
+                        <h4 class="mb-0">Upload & Print</h4>
+                    </div>
+                    <div class="card-body">
+                        <!-- Print Settings -->
+                        <div class="mb-4">
+                            <h5>1. Print Settings</h5>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="colorMode" id="bw" value="bw" checked>
+                                <label class="form-check-label" for="bw">
+                                    Black & White (₱3/page)
+                                </label>
+                            </div>
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="radio" name="colorMode" id="color" value="color">
+                                <label class="form-check-label" for="color">
+                                    Color (₱5/page)
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <!-- File Upload -->
+                        <div class="mb-4">
+                            <h5>2. Upload Document</h5>
+                            <form id="uploadForm">
+                                <div class="mb-3">
+                                    <input type="file" class="form-control" id="fileUpload" 
+                                           accept=".pdf,.doc,.docx,.txt" required>
+                                    <small class="text-muted">Supported formats: PDF, DOC, DOCX, TXT</small>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hidden canvas for PDF processing -->
+    <canvas id="pdfCanvas" style="display: none;"></canvas>
+
+    <!-- Preview Modal -->
+    <div id="previewContainer" class="modal fade" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Document Preview</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="previewContent" class="bg-white p-3"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Back</button>
+                    <button type="button" class="btn btn-primary" id="confirmPrintBtn">
+                        Confirm & Print
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

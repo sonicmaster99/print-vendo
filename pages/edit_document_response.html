@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Analysis - PrintVendo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-bootstrap-4/bootstrap-4.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <style>
+        .edit-mode {
+            background-color: #fff;
+            border: 1px solid #ced4da;
+            padding: 10px;
+            min-height: 200px;
+        }
+        #responseContainer {
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">PrintVendo</a>
+            <span class="navbar-text text-white" id="machineIdDisplay"></span>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title text-center mb-4">Document Analysis Results</h2>
+                        
+                        <div class="alert alert-success mb-4">
+                            <h5><i class="fas fa-check-circle"></i> Payment Verified</h5>
+                            <p>Your document has been processed successfully.</p>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <h4>Your Document</h4>
+                            <p id="documentName" class="text-muted"></p>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <h4>Your Prompt</h4>
+                            <p id="promptText" class="text-muted"></p>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <h4>ChatGPT Response</h4>
+                            <div class="d-flex justify-content-end mb-2">
+                                <button id="editResponseBtn" class="btn btn-sm btn-outline-primary">Edit Response</button>
+                                <button id="saveResponseBtn" class="btn btn-sm btn-success ms-2" style="display: none;">Save Changes</button>
+                                <button id="cancelEditBtn" class="btn btn-sm btn-outline-secondary ms-2" style="display: none;">Cancel</button>
+                            </div>
+                            <div id="responseContainer" class="border p-3 bg-light">
+                                <div class="text-center">
+                                    <div class="spinner-border text-primary" role="status">
+                                        <span class="visually-hidden">Loading...</span>
+                                    </div>
+                                    <p>Loading response...</p>
+                                </div>
+                            </div>
+                            <textarea id="responseEditor" class="form-control edit-mode mt-2" style="display: none;"></textarea>
+                        </div>
+                        
+                        <div class="d-grid gap-2">
+                            <button id="downloadPdfBtn" class="btn btn-primary">Download PDF</button>
+                            <a href="../index.html" class="btn btn-outline-secondary">Back to Home</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="loading-overlay" id="loadingSpinner">
+        <div class="spinner-container">
+            <div class="spinner-border text-light" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <p class="text-light mt-2">Processing your request...</p>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+    <!-- jsPDF library for client-side PDF generation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script>
+        // Initialize jsPDF as a global variable
+        window.jspdf = window.jspdf || {};
+    </script>
+    <script src="../js/machineConfig.js"></script>
+    <script src="../js/config.js"></script>
+    <script src="../js/trigger_document_processing.js"></script>
+    <script src="../js/edit_document_response.js"></script>
+</body>
+</html>

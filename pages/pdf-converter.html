@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF to HTML Converter - PrintVendo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/legal-documents.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .drop-zone {
+            border: 2px dashed #ccc;
+            border-radius: 5px;
+            padding: 3rem;
+            text-align: center;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+        .drop-zone:hover, .drop-zone.dragover {
+            border-color: #0d6efd;
+            background-color: rgba(13, 110, 253, 0.05);
+        }
+        .drop-zone-icon {
+            font-size: 3rem;
+            color: #6c757d;
+            margin-bottom: 1rem;
+        }
+        .drop-zone.dragover .drop-zone-icon {
+            color: #0d6efd;
+        }
+        .preview-container {
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            padding: 1rem;
+            margin-top: 1rem;
+            background-color: #f8f9fa;
+        }
+        .preview-iframe {
+            width: 100%;
+            height: 600px;
+            border: 1px solid #dee2e6;
+            background-color: white;
+        }
+        .loading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">PrintVendo</a>
+            <span class="navbar-text text-white" id="machineIdDisplay"></span>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title text-center mb-4">PDF to HTML Converter</h2>
+                        
+                        <div class="alert alert-info">
+                            <i class="fas fa-info-circle"></i> Upload a PDF file to convert it to HTML format. The converter will preserve the exact layout of your PDF document.
+                        </div>
+                        
+                        <form id="pdfConverterForm">
+                            <div class="mb-4">
+                                <div class="drop-zone" id="dropZone">
+                                    <div class="drop-zone-icon">
+                                        <i class="fas fa-file-pdf"></i>
+                                    </div>
+                                    <p class="mb-2">Drag & drop your PDF file here</p>
+                                    <p class="text-muted small mb-2">or</p>
+                                    <button type="button" class="btn btn-outline-primary" id="browseBtn">Browse Files</button>
+                                    <input type="file" id="pdfFile" name="pdfFile" accept=".pdf" class="d-none" required>
+                                </div>
+                                <div id="fileInfo" class="mt-3 d-none">
+                                    <div class="alert alert-success d-flex align-items-center">
+                                        <i class="fas fa-check-circle me-2"></i>
+                                        <div>
+                                            <strong>Selected file:</strong> <span id="fileName"></span>
+                                            <button type="button" class="btn btn-sm btn-link text-danger p-0 ms-2" id="removeFile">
+                                                <i class="fas fa-times"></i> Remove
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="exactLayoutToggle" checked>
+                                    <label class="form-check-label" for="exactLayoutToggle">
+                                        <i class="fas fa-ruler me-1"></i> Preserve exact layout (recommended)
+                                    </label>
+                                </div>
+                                <div class="form-text">
+                                    When enabled, the converter will try to maintain the exact positioning and formatting of text as in the original PDF.
+                                </div>
+                            </div>
+                            
+                            <div class="d-grid gap-2">
+                                <button type="submit" class="btn btn-primary" id="convertBtn">
+                                    <i class="fas fa-exchange-alt me-2"></i> Convert to HTML
+                                </button>
+                                <a href="../index.html" class="btn btn-secondary">
+                                    <i class="fas fa-arrow-left me-2"></i> Back to Home
+                                </a>
+                            </div>
+                        </form>
+                        
+                        <div id="previewSection" class="mt-4 d-none">
+                            <h4 class="mb-3">Conversion Result</h4>
+                            <div class="alert alert-success mb-3">
+                                <i class="fas fa-check-circle me-2"></i> PDF successfully converted to HTML!
+                            </div>
+                            
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Document Information</h5>
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                    Title
+                                                    <span id="pdfTitle" class="badge bg-primary rounded-pill">Unknown</span>
+                                                </li>
+                                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                    Pages
+                                                    <span id="pageCount" class="badge bg-primary rounded-pill">0</span>
+                                                </li>
+                                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                    Author
+                                                    <span id="pdfAuthor" class="badge bg-primary rounded-pill">Unknown</span>
+                                                </li>
+                                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                    Layout
+                                                    <span id="layoutInfo" class="badge bg-success rounded-pill">Exact Layout</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-grid gap-2">
+                                        <a href="#" class="btn btn-success" id="downloadBtn" target="_blank">
+                                            <i class="fas fa-download me-2"></i> Download HTML File
+                                        </a>
+                                        <button type="button" class="btn btn-outline-primary" id="viewSourceBtn">
+                                            <i class="fas fa-code me-2"></i> View HTML Source
+                                        </button>
+                                        <button type="button" class="btn btn-outline-secondary" id="scanFieldsBtn">
+                                            <i class="fas fa-search me-2"></i> Scan for Form Fields
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="preview-container">
+                                <h5 class="mb-3">Preview</h5>
+                                <iframe id="previewFrame" class="preview-iframe"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading spinner -->
+    <div class="loading" id="loadingSpinner">
+        <div class="spinner-border text-light" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+
+    <!-- HTML Source Modal -->
+    <div class="modal fade" id="sourceModal" tabindex="-1" aria-labelledby="sourceModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="sourceModalLabel">HTML Source Code</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <pre id="htmlSource" class="bg-light p-3" style="max-height: 500px; overflow: auto;"></pre>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="copySourceBtn">
+                        <i class="fas fa-copy me-2"></i> Copy to Clipboard
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Form Fields Modal -->
+    <div class="modal fade" id="fieldsModal" tabindex="-1" aria-labelledby="fieldsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="fieldsModalLabel">Detected Form Fields</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="alert alert-info">
+                        <i class="fas fa-info-circle me-2"></i> The document scanner has detected the following form fields in the PDF:
+                    </div>
+                    <div id="detectedFields" class="list-group mb-3">
+                        <!-- Detected fields will be listed here -->
+                    </div>
+                    <div class="alert alert-warning" id="noFieldsAlert" style="display: none;">
+                        <i class="fas fa-exclamation-triangle me-2"></i> No form fields were detected in this document.
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="createTemplateBtn">
+                        <i class="fas fa-file-code me-2"></i> Create Fillable Template
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.all.min.js"></script>
+    <script src="../js/pdf-converter.js"></script>
+    <script>
+        // Additional functionality for document scanner integration
+        document.addEventListener('DOMContentLoaded', function() {
+            // Scan Fields button handler
+            const scanFieldsBtn = document.getElementById('scanFieldsBtn');
+            if (scanFieldsBtn) {
+                const fieldsModal = new bootstrap.Modal(document.getElementById('fieldsModal'));
+                
+                scanFieldsBtn.addEventListener('click', function() {
+                    const previewFrame = document.getElementById('previewFrame');
+                    const detectedFields = document.getElementById('detectedFields');
+                    const noFieldsAlert = document.getElementById('noFieldsAlert');
+                    
+                    // Clear previous results
+                    detectedFields.innerHTML = '';
+                    noFieldsAlert.style.display = 'none';
+                    
+                    try {
+                        // Try to access the iframe content
+                        const iframeDoc = previewFrame.contentDocument || previewFrame.contentWindow.document;
+                        
+                        // Use the document scanner to detect potential form fields
+                        // This is a simplified implementation that looks for common patterns in legal documents
+                        const textElements = iframeDoc.querySelectorAll('.pdf-text');
+                        const potentialFields = [];
+                        
+                        // Common patterns for form fields in legal documents
+                        const fieldPatterns = [
+                            { pattern: /name|full\s*name/i, type: 'text', label: 'Full Name' },
+                            { pattern: /address/i, type: 'text', label: 'Address' },
+                            { pattern: /city/i, type: 'text', label: 'City' },
+                            { pattern: /state|province/i, type: 'text', label: 'State/Province' },
+                            { pattern: /zip|postal\s*code/i, type: 'text', label: 'ZIP/Postal Code' },
+                            { pattern: /phone|telephone/i, type: 'tel', label: 'Phone Number' },
+                            { pattern: /email/i, type: 'email', label: 'Email Address' },
+                            { pattern: /date|day|month|year/i, type: 'date', label: 'Date' },
+                            { pattern: /signature/i, type: 'signature', label: 'Signature' },
+                            { pattern: /item|lost/i, type: 'text', label: 'Item Lost' },
+                            { pattern: /circumstances/i, type: 'textarea', label: 'Circumstances' }
+                        ];
+                        
+                        // Scan text elements for potential fields
+                        textElements.forEach(element => {
+                            const text = element.textContent.trim();
+                            
+                            fieldPatterns.forEach(pattern => {
+                                if (pattern.pattern.test(text) && 
+                                    !potentialFields.some(f => f.label === pattern.label)) {
+                                    potentialFields.push({
+                                        label: pattern.label,
+                                        type: pattern.type,
+                                        text: text
+                                    });
+                                }
+                            });
+                        });
+                        
+                        // Display detected fields
+                        if (potentialFields.length > 0) {
+                            potentialFields.forEach(field => {
+                                const item = document.createElement('div');
+                                item.className = 'list-group-item';
+                                
+                                let fieldIcon = 'font';
+                                if (field.type === 'date') fieldIcon = 'calendar';
+                                if (field.type === 'email') fieldIcon = 'envelope';
+                                if (field.type === 'tel') fieldIcon = 'phone';
+                                if (field.type === 'textarea') fieldIcon = 'align-left';
+                                if (field.type === 'signature') fieldIcon = 'signature';
+                                
+                                item.innerHTML = `
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">
+                                            <i class="fas fa-${fieldIcon} me-2"></i>
+                                            ${field.label}
+                                        </h5>
+                                        <small class="text-muted">${field.type}</small>
+                                    </div>
+                                    <p class="mb-1 text-muted small">Found in text: "${field.text.substring(0, 50)}${field.text.length > 50 ? '...' : ''}"</p>
+                                `;
+                                
+                                detectedFields.appendChild(item);
+                            });
+                        } else {
+                            noFieldsAlert.style.display = 'block';
+                        }
+                        
+                    } catch (error) {
+                        console.error('Error scanning fields:', error);
+                        noFieldsAlert.style.display = 'block';
+                    }
+                    
+                    // Show the modal
+                    fieldsModal.show();
+                });
+                
+                // Create Template button handler
+                const createTemplateBtn = document.getElementById('createTemplateBtn');
+                if (createTemplateBtn) {
+                    createTemplateBtn.addEventListener('click', function() {
+                        Swal.fire({
+                            icon: 'info',
+                            title: 'Creating Template',
+                            text: 'This feature will integrate with the document scanner system to create a fillable template from the detected fields.',
+                            showConfirmButton: true
+                        });
+                    });
+                }
+            }
+        });
+    </script>
+</body>
+</html>

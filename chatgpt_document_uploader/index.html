@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Uploader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Upload Document for ChatGPT</h1>
+    <form id="uploadForm">
+        <input type="text" id="machineId" placeholder="Enter Machine ID" required>
+        <input type="file" id="document" accept=".txt,.doc,.docx,.pdf" required>
+        <textarea id="prompt" placeholder="Enter your prompt here..." required></textarea>
+        <select id="model">
+            <option value="3.5">Model 3.5 - PHP 24/100 tokens</option> <!-- $0.02 * 20 = PHP 24 -->
+            <option value="4.0">Model 4.0 - PHP 36/100 tokens</option> <!-- $0.03 * 20 = PHP 36 -->
+            <option value="4.5">Model 4.5 - PHP 48/100 tokens</option> <!-- $0.04 * 20 = PHP 48 -->
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+    <p id="costDisplay">Estimated Cost: PHP <span id="cost"></span></p>
+    <button id="downloadButton" disabled>Download</button>
+    <script src="script.js"></script>
+</body>
+</html>

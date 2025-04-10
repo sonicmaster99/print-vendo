@@ -1,0 +1,6 @@
+Cost Summary
+-------------
+Document: print_1743346466521_1m43emyte.pdf
+Model: GPT-3.5
+Total Cost: ₱5.00
+-------------

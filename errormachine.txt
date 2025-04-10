@@ -1,0 +1,454 @@
+[2025-03-31 21:17:07] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:17:07] Google Drive service initialized successfully
+[2025-03-31 21:17:08] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:17:08] Google Drive service initialized successfully
+[2025-03-31 21:17:08] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:17:08] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:17:09] Found 1 matching folders
+[2025-03-31 21:17:09] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:17:19] Attempting to upload file to Google Drive: C:\Users\mcord\AppData\Local\Temp\gdrFDD3.tmp (Size: 125 bytes)
+[2025-03-31 21:17:19] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:17:19] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:17:20] Found 1 matching folders
+[2025-03-31 21:17:20] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:17:20] Starting Google Drive upload with MIME type: application/json
+[2025-03-31 21:17:23] File uploaded successfully to Google Drive. File ID: 1i9HiC-dCMB2mYzIQK6N9BsXInRRqeKlV, Link: https://drive.google.com/file/d/1i9HiC-dCMB2mYzIQK6N9BsXInRRqeKlV/view?usp=drivesdk
+[2025-03-31 21:17:23] Attempting to upload file to Google Drive: C:\Users\mcord\AppData\Local\Temp\gdrB23.tmp (Size: 1269 bytes)
+[2025-03-31 21:17:23] Found cached machine folder ID for 00001
+[2025-03-31 21:17:23] Starting Google Drive upload with MIME type: text/plain
+[2025-03-31 21:17:25] File uploaded successfully to Google Drive. File ID: 1i2d8WoIx4ZnVVw8B5dABg3EYHYd-ZXXh, Link: https://drive.google.com/file/d/1i2d8WoIx4ZnVVw8B5dABg3EYHYd-ZXXh/view?usp=drivesdk
+[2025-03-31 21:17:36] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:17:36] Google Drive service initialized successfully
+[2025-03-31 21:17:36] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:17:36] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:17:37] Found 1 matching folders
+[2025-03-31 21:17:37] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:17:37] Attempting to upload file to Google Drive: C:\xampp\htdocs\printgpt/temp_uploads/doc_67eaea51175f4_print_1743346466521_1m43emyte.pdf (Size: 6973 bytes)
+[2025-03-31 21:17:37] Found cached machine folder ID for 00001
+[2025-03-31 21:17:37] Starting Google Drive upload with MIME type: application/pdf
+[2025-03-31 21:17:39] File uploaded successfully to Google Drive. File ID: 1nI15ynO6sF0DNbM-djel5wLK4v-XnCMR, Link: https://drive.google.com/file/d/1nI15ynO6sF0DNbM-djel5wLK4v-XnCMR/view?usp=drivesdk
+[2025-03-31 21:17:39] Attempting to upload file to Google Drive: C:\xampp\htdocs\printgpt/temp_uploads/doc_67eaea51175f4_prompt.txt (Size: 10 bytes)
+[2025-03-31 21:17:39] Found cached machine folder ID for 00001
+[2025-03-31 21:17:39] Starting Google Drive upload with MIME type: text/plain
+[2025-03-31 21:17:42] File uploaded successfully to Google Drive. File ID: 1e97US7PANERpQIyOTV6IzYD38dzTmbzE, Link: https://drive.google.com/file/d/1e97US7PANERpQIyOTV6IzYD38dzTmbzE/view?usp=drivesdk
+[2025-03-31 21:17:42] Attempting to upload file to Google Drive: C:\xampp\htdocs\printgpt/temp_uploads/doc_67eaea51175f4_cost.txt (Size: 120 bytes)
+[2025-03-31 21:17:42] Found cached machine folder ID for 00001
+[2025-03-31 21:17:42] Starting Google Drive upload with MIME type: text/plain
+[2025-03-31 21:17:44] File uploaded successfully to Google Drive. File ID: 1ISMElEE5KZhNHLjqlZStatb85uH8J7xN, Link: https://drive.google.com/file/d/1ISMElEE5KZhNHLjqlZStatb85uH8J7xN/view?usp=drivesdk
+[2025-03-31 21:17:44] Attempting to upload file to Google Drive: C:\xampp\htdocs\printgpt/temp_uploads/doc_67eaea51175f4_amount_request.txt (Size: 14 bytes)
+[2025-03-31 21:17:44] Found cached machine folder ID for 00001
+[2025-03-31 21:17:44] Starting Google Drive upload with MIME type: text/plain
+[2025-03-31 21:17:46] File uploaded successfully to Google Drive. File ID: 1GeoTgJNVejcIwQUNLceEzbd-lL-lsybo, Link: https://drive.google.com/file/d/1GeoTgJNVejcIwQUNLceEzbd-lL-lsybo/view?usp=drivesdk
+[2025-03-31 21:17:47] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:17:47] Google Drive service initialized successfully
+[2025-03-31 21:17:48] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:17:48] Google Drive service initialized successfully
+[2025-03-31 21:17:48] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:17:48] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:17:49] Found 1 matching folders
+[2025-03-31 21:17:49] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:17:49] Found cached machine folder ID for 00001
+[2025-03-31 21:17:54] Attempting to upload file to Google Drive: C:\Users\mcord\AppData\Local\Temp\gdr8314.tmp (Size: 127 bytes)
+[2025-03-31 21:17:54] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:17:54] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:17:54] Found 1 matching folders
+[2025-03-31 21:17:54] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:17:54] Starting Google Drive upload with MIME type: application/json
+[2025-03-31 21:17:57] File uploaded successfully to Google Drive. File ID: 1ZaWh3bgQzQXnuCP0WOXub6drL_9fOddZ, Link: https://drive.google.com/file/d/1ZaWh3bgQzQXnuCP0WOXub6drL_9fOddZ/view?usp=drivesdk
+[2025-03-31 21:17:57] Attempting to upload file to Google Drive: C:\Users\mcord\AppData\Local\Temp\gdr917C.tmp (Size: 1501 bytes)
+[2025-03-31 21:17:57] Found cached machine folder ID for 00001
+[2025-03-31 21:17:57] Starting Google Drive upload with MIME type: text/plain
+[2025-03-31 21:18:00] File uploaded successfully to Google Drive. File ID: 1gETqsyQKc1UiDhI3fOEnj9JiMITKFInz, Link: https://drive.google.com/file/d/1gETqsyQKc1UiDhI3fOEnj9JiMITKFInz/view?usp=drivesdk
+[2025-03-31 21:18:01] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:18:01] Google Drive service initialized successfully
+[2025-03-31 21:18:01] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:18:01] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:18:01] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:18:01] Google Drive service initialized successfully
+[2025-03-31 21:18:01] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:18:01] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:18:02] Found 1 matching folders
+[2025-03-31 21:18:02] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:18:02] Found 1 matching folders
+[2025-03-31 21:18:02] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:18:02] Found cached machine folder ID for 00001
+[2025-03-31 21:18:04] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:18:04] Google Drive service initialized successfully
+[2025-03-31 21:18:04] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:18:04] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:18:05] Found 1 matching folders
+[2025-03-31 21:18:05] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:18:05] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:18:05] Google Drive service initialized successfully
+[2025-03-31 21:18:05] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:18:05] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:18:05] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:18:05] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:18:05] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:18:05] Google Drive service initialized successfully
+[2025-03-31 21:18:05] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:18:05] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:18:05] Found 1 matching folders
+[2025-03-31 21:18:05] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:18:05] Found cached machine folder ID for 00001
+[2025-03-31 21:18:05] Found 1 matching folders
+[2025-03-31 21:18:05] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:18:05] Found cached machine folder ID for 00001
+[2025-03-31 21:18:06] Found 1 matching folders
+[2025-03-31 21:18:06] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:18:06] Found cached machine folder ID for 00001
+[2025-03-31 21:18:09] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:18:09] Google Drive service initialized successfully
+[2025-03-31 21:18:10] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:18:10] Google Drive service initialized successfully
+[2025-03-31 21:18:10] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:18:10] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:18:11] Found 1 matching folders
+[2025-03-31 21:18:11] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:18:15] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:18:15] Google Drive service initialized successfully
+[2025-03-31 21:18:15] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:18:15] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:18:15] Found 1 matching folders
+[2025-03-31 21:18:15] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:18:15] Attempting to upload file to Google Drive: C:\Users\mcord\AppData\Local\Temp\gdrD712.tmp (Size: 125 bytes)
+[2025-03-31 21:18:15] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:18:15] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:18:15] Attempting to upload content to Google Drive as analysis_00001_2025-03-31_211815.pdf
+[2025-03-31 21:18:15] Found cached machine folder ID for 00001
+[2025-03-31 21:18:15] Starting Google Drive content upload with MIME type: application/pdf
+[2025-03-31 21:18:16] Found 1 matching folders
+[2025-03-31 21:18:16] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:18:16] Starting Google Drive upload with MIME type: application/json
+[2025-03-31 21:18:18] Content uploaded successfully to Google Drive. File ID: 1wuTSDIrfG1_SdKM4XtQTXooiNUtfKpUQ, Link: https://drive.google.com/file/d/1wuTSDIrfG1_SdKM4XtQTXooiNUtfKpUQ/view?usp=drivesdk
+[2025-03-31 21:18:19] File uploaded successfully to Google Drive. File ID: 1sRKNk6-cbhMvd1js9EFJUhuuqlDJzBRt, Link: https://drive.google.com/file/d/1sRKNk6-cbhMvd1js9EFJUhuuqlDJzBRt/view?usp=drivesdk
+[2025-03-31 21:18:19] Attempting to upload file to Google Drive: C:\Users\mcord\AppData\Local\Temp\gdrE4BF.tmp (Size: 1157 bytes)
+[2025-03-31 21:18:19] Found cached machine folder ID for 00001
+[2025-03-31 21:18:19] Starting Google Drive upload with MIME type: text/plain
+[2025-03-31 21:18:21] File uploaded successfully to Google Drive. File ID: 1LxS9QDY7EnOYo53zpqMCXziFTeBdwLXj, Link: https://drive.google.com/file/d/1LxS9QDY7EnOYo53zpqMCXziFTeBdwLXj/view?usp=drivesdk
+[2025-03-31 21:18:22] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:18:22] Google Drive service initialized successfully
+[2025-03-31 21:18:22] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:18:22] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:18:23] Found 1 matching folders
+[2025-03-31 21:18:23] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:18:44] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:18:44] Google Drive service initialized successfully
+[2025-03-31 21:18:45] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:18:45] Google Drive service initialized successfully
+[2025-03-31 21:18:45] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:18:45] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:18:45] Found 1 matching folders
+[2025-03-31 21:18:45] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:18:48] Attempting to upload file to Google Drive: C:\Users\mcord\AppData\Local\Temp\gdr56E3.tmp (Size: 125 bytes)
+[2025-03-31 21:18:48] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:18:48] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:18:48] Found 1 matching folders
+[2025-03-31 21:18:48] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:18:48] Starting Google Drive upload with MIME type: application/json
+[2025-03-31 21:18:49] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:18:49] Google Drive service initialized successfully
+[2025-03-31 21:18:49] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:18:49] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:18:49] Found 1 matching folders
+[2025-03-31 21:18:49] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:18:49] Attempting to upload file to Google Drive: C:\xampp\htdocs\printgpt/temp_uploads/doc_67eaea99d670e_print_1743346466521_1m43emyte.pdf (Size: 6973 bytes)
+[2025-03-31 21:18:49] Found cached machine folder ID for 00001
+[2025-03-31 21:18:49] Starting Google Drive upload with MIME type: application/pdf
+[2025-03-31 21:18:51] File uploaded successfully to Google Drive. File ID: 1rjp4LAIHEvA5NDHiAuqSrPIqNH--wzWn, Link: https://drive.google.com/file/d/1rjp4LAIHEvA5NDHiAuqSrPIqNH--wzWn/view?usp=drivesdk
+[2025-03-31 21:18:51] Attempting to upload file to Google Drive: C:\Users\mcord\AppData\Local\Temp\gdr62EB.tmp (Size: 718 bytes)
+[2025-03-31 21:18:51] Found cached machine folder ID for 00001
+[2025-03-31 21:18:51] Starting Google Drive upload with MIME type: text/plain
+[2025-03-31 21:18:52] File uploaded successfully to Google Drive. File ID: 1HlMn4j4XYNU0r8GclnpyIid3DYnaMf0k, Link: https://drive.google.com/file/d/1HlMn4j4XYNU0r8GclnpyIid3DYnaMf0k/view?usp=drivesdk
+[2025-03-31 21:18:52] Attempting to upload file to Google Drive: C:\xampp\htdocs\printgpt/temp_uploads/doc_67eaea99d670e_prompt.txt (Size: 10 bytes)
+[2025-03-31 21:18:52] Found cached machine folder ID for 00001
+[2025-03-31 21:18:52] Starting Google Drive upload with MIME type: text/plain
+[2025-03-31 21:18:53] File uploaded successfully to Google Drive. File ID: 1NVGYybvhukAu9k16lnsytVPo6-k6b19J, Link: https://drive.google.com/file/d/1NVGYybvhukAu9k16lnsytVPo6-k6b19J/view?usp=drivesdk
+[2025-03-31 21:18:54] File uploaded successfully to Google Drive. File ID: 1vsCwTOsngtleazdivV2ZMmnI5LioGuYM, Link: https://drive.google.com/file/d/1vsCwTOsngtleazdivV2ZMmnI5LioGuYM/view?usp=drivesdk
+[2025-03-31 21:18:54] Attempting to upload file to Google Drive: C:\xampp\htdocs\printgpt/temp_uploads/doc_67eaea99d670e_cost.txt (Size: 120 bytes)
+[2025-03-31 21:18:54] Found cached machine folder ID for 00001
+[2025-03-31 21:18:54] Starting Google Drive upload with MIME type: text/plain
+[2025-03-31 21:18:57] File uploaded successfully to Google Drive. File ID: 1gXmEaXGWg6x55Jfo4jHjslusZf5S4enu, Link: https://drive.google.com/file/d/1gXmEaXGWg6x55Jfo4jHjslusZf5S4enu/view?usp=drivesdk
+[2025-03-31 21:18:57] Attempting to upload file to Google Drive: C:\xampp\htdocs\printgpt/temp_uploads/doc_67eaea99d670e_amount_request.txt (Size: 14 bytes)
+[2025-03-31 21:18:57] Found cached machine folder ID for 00001
+[2025-03-31 21:18:57] Starting Google Drive upload with MIME type: text/plain
+[2025-03-31 21:18:59] File uploaded successfully to Google Drive. File ID: 1ekvufgVHE8KU9_7VO7elDpMZNacKzQZY, Link: https://drive.google.com/file/d/1ekvufgVHE8KU9_7VO7elDpMZNacKzQZY/view?usp=drivesdk
+[2025-03-31 21:19:00] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:00] Google Drive service initialized successfully
+[2025-03-31 21:19:01] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:01] Google Drive service initialized successfully
+[2025-03-31 21:19:01] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:01] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:02] Found 1 matching folders
+[2025-03-31 21:19:02] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:02] Found cached machine folder ID for 00001
+[2025-03-31 21:19:06] Attempting to upload file to Google Drive: C:\Users\mcord\AppData\Local\Temp\gdr9E6E.tmp (Size: 126 bytes)
+[2025-03-31 21:19:06] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:06] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:07] Found 1 matching folders
+[2025-03-31 21:19:07] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:07] Starting Google Drive upload with MIME type: application/json
+[2025-03-31 21:19:09] File uploaded successfully to Google Drive. File ID: 1VGBN_NX6JT6YHKaOcIvyOEvKgAW0ezDt, Link: https://drive.google.com/file/d/1VGBN_NX6JT6YHKaOcIvyOEvKgAW0ezDt/view?usp=drivesdk
+[2025-03-31 21:19:09] Attempting to upload file to Google Drive: C:\Users\mcord\AppData\Local\Temp\gdrA93D.tmp (Size: 534 bytes)
+[2025-03-31 21:19:09] Found cached machine folder ID for 00001
+[2025-03-31 21:19:09] Starting Google Drive upload with MIME type: text/plain
+[2025-03-31 21:19:12] File uploaded successfully to Google Drive. File ID: 1-6j3SZMzgMZpkKaA752FQhs8icTkKL7v, Link: https://drive.google.com/file/d/1-6j3SZMzgMZpkKaA752FQhs8icTkKL7v/view?usp=drivesdk
+[2025-03-31 21:19:13] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:13] Google Drive service initialized successfully
+[2025-03-31 21:19:13] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:13] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:13] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:13] Google Drive service initialized successfully
+[2025-03-31 21:19:13] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:13] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:13] Found 1 matching folders
+[2025-03-31 21:19:13] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:13] Found 1 matching folders
+[2025-03-31 21:19:13] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:13] Found cached machine folder ID for 00001
+[2025-03-31 21:19:16] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:16] Google Drive service initialized successfully
+[2025-03-31 21:19:16] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:16] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:16] Found 1 matching folders
+[2025-03-31 21:19:16] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:17] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:17] Google Drive service initialized successfully
+[2025-03-31 21:19:17] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:17] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:17] Found 1 matching folders
+[2025-03-31 21:19:17] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:17] Found cached machine folder ID for 00001
+[2025-03-31 21:19:19] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:19] Google Drive service initialized successfully
+[2025-03-31 21:19:19] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:19] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:20] Found 1 matching folders
+[2025-03-31 21:19:20] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:20] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:20] Google Drive service initialized successfully
+[2025-03-31 21:19:20] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:20] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:21] Found 1 matching folders
+[2025-03-31 21:19:21] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:21] Found cached machine folder ID for 00001
+[2025-03-31 21:19:22] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:22] Google Drive service initialized successfully
+[2025-03-31 21:19:22] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:22] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:23] Found 1 matching folders
+[2025-03-31 21:19:23] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:25] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:25] Google Drive service initialized successfully
+[2025-03-31 21:19:25] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:25] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:25] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:25] Google Drive service initialized successfully
+[2025-03-31 21:19:25] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:25] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:25] Found 1 matching folders
+[2025-03-31 21:19:25] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:26] Found 1 matching folders
+[2025-03-31 21:19:26] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:27] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:27] Google Drive service initialized successfully
+[2025-03-31 21:19:27] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:27] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:27] Found 1 matching folders
+[2025-03-31 21:19:27] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:27] Found cached machine folder ID for 00001
+[2025-03-31 21:19:29] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:29] Google Drive service initialized successfully
+[2025-03-31 21:19:29] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:29] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:29] Found 1 matching folders
+[2025-03-31 21:19:29] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:31] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:31] Google Drive service initialized successfully
+[2025-03-31 21:19:31] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:31] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:31] Found 1 matching folders
+[2025-03-31 21:19:31] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:31] Found cached machine folder ID for 00001
+[2025-03-31 21:19:32] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:32] Google Drive service initialized successfully
+[2025-03-31 21:19:32] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:32] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:32] Found 1 matching folders
+[2025-03-31 21:19:32] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:34] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:34] Google Drive service initialized successfully
+[2025-03-31 21:19:34] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:34] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:34] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:34] Google Drive service initialized successfully
+[2025-03-31 21:19:34] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:34] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:34] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:34] Google Drive service initialized successfully
+[2025-03-31 21:19:34] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:34] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:35] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:35] Google Drive service initialized successfully
+[2025-03-31 21:19:35] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:35] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:35] Found 1 matching folders
+[2025-03-31 21:19:35] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:35] Found cached machine folder ID for 00001
+[2025-03-31 21:19:35] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:35] Google Drive service initialized successfully
+[2025-03-31 21:19:35] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:35] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:35] Found 1 matching folders
+[2025-03-31 21:19:35] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:35] Found cached machine folder ID for 00001
+[2025-03-31 21:19:35] Found 1 matching folders
+[2025-03-31 21:19:35] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:35] Found 1 matching folders
+[2025-03-31 21:19:35] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:35] Found 1 matching folders
+[2025-03-31 21:19:35] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:35] Found cached machine folder ID for 00001
+[2025-03-31 21:19:35] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:35] Google Drive service initialized successfully
+[2025-03-31 21:19:35] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:35] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:36] Found 1 matching folders
+[2025-03-31 21:19:36] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:36] Found cached machine folder ID for 00001
+[2025-03-31 21:19:37] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:37] Google Drive service initialized successfully
+[2025-03-31 21:19:37] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:37] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:37] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:37] Google Drive service initialized successfully
+[2025-03-31 21:19:37] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:37] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:38] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:38] Google Drive service initialized successfully
+[2025-03-31 21:19:38] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:38] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:38] Found 1 matching folders
+[2025-03-31 21:19:38] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:38] Found cached machine folder ID for 00001
+[2025-03-31 21:19:38] Found 1 matching folders
+[2025-03-31 21:19:38] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:38] Found 1 matching folders
+[2025-03-31 21:19:38] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:38] Found cached machine folder ID for 00001
+[2025-03-31 21:19:38] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:38] Google Drive service initialized successfully
+[2025-03-31 21:19:38] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:38] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:39] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:39] Google Drive service initialized successfully
+[2025-03-31 21:19:39] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:39] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:39] Found 1 matching folders
+[2025-03-31 21:19:39] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:39] Found 1 matching folders
+[2025-03-31 21:19:39] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:39] Found cached machine folder ID for 00001
+[2025-03-31 21:19:40] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:40] Google Drive service initialized successfully
+[2025-03-31 21:19:40] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:40] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:41] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:41] Google Drive service initialized successfully
+[2025-03-31 21:19:41] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:41] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:41] Found 1 matching folders
+[2025-03-31 21:19:41] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:41] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:41] Google Drive service initialized successfully
+[2025-03-31 21:19:41] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:41] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:41] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:41] Google Drive service initialized successfully
+[2025-03-31 21:19:41] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:41] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:42] Found 1 matching folders
+[2025-03-31 21:19:42] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:42] Found cached machine folder ID for 00001
+[2025-03-31 21:19:42] Found 1 matching folders
+[2025-03-31 21:19:42] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:42] Found cached machine folder ID for 00001
+[2025-03-31 21:19:42] Found 1 matching folders
+[2025-03-31 21:19:42] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:42] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:42] Google Drive service initialized successfully
+[2025-03-31 21:19:42] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:42] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:43] Found 1 matching folders
+[2025-03-31 21:19:43] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:44] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:44] Google Drive service initialized successfully
+[2025-03-31 21:19:44] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:44] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:44] Found 1 matching folders
+[2025-03-31 21:19:44] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:44] Found cached machine folder ID for 00001
+[2025-03-31 21:19:44] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:44] Google Drive service initialized successfully
+[2025-03-31 21:19:44] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:44] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:45] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:45] Google Drive service initialized successfully
+[2025-03-31 21:19:45] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:45] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:45] Found 1 matching folders
+[2025-03-31 21:19:45] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:45] Found 1 matching folders
+[2025-03-31 21:19:45] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:45] Found cached machine folder ID for 00001
+[2025-03-31 21:19:45] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:45] Google Drive service initialized successfully
+[2025-03-31 21:19:45] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:45] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:46] Found 1 matching folders
+[2025-03-31 21:19:46] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:46] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:46] Google Drive service initialized successfully
+[2025-03-31 21:19:46] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:46] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:47] Found 1 matching folders
+[2025-03-31 21:19:47] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:47] Found cached machine folder ID for 00001
+[2025-03-31 21:19:47] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:47] Google Drive service initialized successfully
+[2025-03-31 21:19:47] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:47] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:48] Found 1 matching folders
+[2025-03-31 21:19:48] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:48] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:48] Google Drive service initialized successfully
+[2025-03-31 21:19:48] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:48] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:48] Found 1 matching folders
+[2025-03-31 21:19:48] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:48] Found cached machine folder ID for 00001
+[2025-03-31 21:19:52] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:52] Google Drive service initialized successfully
+[2025-03-31 21:19:53] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:19:53] Google Drive service initialized successfully
+[2025-03-31 21:19:53] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:53] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:19:53] Found 1 matching folders
+[2025-03-31 21:19:53] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:19:59] Attempting to upload file to Google Drive: C:\Users\mcord\AppData\Local\Temp\gdr6E05.tmp (Size: 125 bytes)
+[2025-03-31 21:19:59] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:19:59] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:20:00] Found 1 matching folders
+[2025-03-31 21:20:00] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
+[2025-03-31 21:20:00] Starting Google Drive upload with MIME type: application/json
+[2025-03-31 21:20:02] File uploaded successfully to Google Drive. File ID: 1BE_KWO0s6-zE9TgF1cKO41WmrzPkyDs4, Link: https://drive.google.com/file/d/1BE_KWO0s6-zE9TgF1cKO41WmrzPkyDs4/view?usp=drivesdk
+[2025-03-31 21:20:02] Attempting to upload file to Google Drive: C:\Users\mcord\AppData\Local\Temp\gdr78A4.tmp (Size: 1692 bytes)
+[2025-03-31 21:20:02] Found cached machine folder ID for 00001
+[2025-03-31 21:20:02] Starting Google Drive upload with MIME type: text/plain
+[2025-03-31 21:20:05] File uploaded successfully to Google Drive. File ID: 1cCavECKbzjtagY1WVg-pnqWj92DkPij_, Link: https://drive.google.com/file/d/1cCavECKbzjtagY1WVg-pnqWj92DkPij_/view?usp=drivesdk
+[2025-03-31 21:20:06] Successfully accessed root folder: Machine IDs
+[2025-03-31 21:20:06] Google Drive service initialized successfully
+[2025-03-31 21:20:06] Searching for machine folder: machine_00001 in root folder: 1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI
+[2025-03-31 21:20:06] Google Drive search query: mimeType='application/vnd.google-apps.folder' and name='machine_00001' and '1xHjJU_wnhLgd1RoCWFrCexHPPtBuNrdI' in parents and trashed=false
+[2025-03-31 21:20:06] Found 1 matching folders
+[2025-03-31 21:20:06] Found machine folder with ID: 1CwdgxmijeDPc3LvTZBtu9HwxU25toZd7
