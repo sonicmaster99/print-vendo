@@ -9,8 +9,13 @@ error_reporting(E_ALL);
 // Include Google Drive file handler
 require_once 'includes/GoogleDriveFileHandler.php';
 
+require_once __DIR__ . '/vendor/autoload.php';
+
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+
 // OpenAI API configuration
-define('OPENAI_API_KEY', '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');
+define('OPENAI_API_KEY', $_ENV['OPENAI_API_KEY']);
 define('OPENAI_API_URL', 'https://api.openai.com/v1/chat/completions');
 
 try {
